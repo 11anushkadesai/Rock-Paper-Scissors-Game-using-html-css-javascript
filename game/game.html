@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="gcss.css">
+</head>
+<body>
+    <table >
+        <thead>
+            <tr> <th colspan="3"> <div id="heading">Rock Paper And Scissors Game </div></th></tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><div class="choice" id="rock"><img src="/rock.png"></div></td>
+                <td><div class="choice" id="paper"><img src="/paper.png"></div></td>
+                <td><div class="choice" id="scissor"><img src="/scissors.png"></div></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <div class="scoreboard">
+                    <div class="score"><p id="user-score">0</p><p>You</p></div>
+                    <div class="score"><p id="com-score">0</p><p>Com</p></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <div id="msgbox">
+                        <div id="msg">Play Your Move</div>
+                    </div>    
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="gamejs.js"></script>
+</body>
+</html>
